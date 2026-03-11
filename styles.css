@@ -25,3 +25,28 @@ h3{
   width: 150px;
 }
 
+#sidebar{
+    background-color: #8f0000;
+    border: 3px solid white;
+    padding: 12px;
+    width: 500px;
+    border-radius: 20px;
+    float:right;
+    margin: 30px 30px 0 15px  
+}
+#sidebar h3{
+  border-left:none;
+  border-radius: 0;
+}
+ul{
+  line-height: 3em;
+}
+li{
+  font-size: 1.1em;
+}
+
+.pics{
+    width: 500px;
+    border: 3px solid black;
+}
+
