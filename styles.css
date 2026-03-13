@@ -50,3 +50,10 @@ li{
     border: 3px solid black;
 }
 
+/* unvisited links */
+a:link{
+  font-weight: bold;
+  color: #8f0000;
+  text-shadow: .5px .5px 0px  black;
+}
+
