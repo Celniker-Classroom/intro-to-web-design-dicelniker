@@ -1,16 +1,27 @@
 body{
-    background-color: #8f0000;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
+  background-color: #8f0000;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+#container{
+  background-color: #777;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50 auto;
+  border-left: 3px double white;
+  border-right: 3px double white;
+  padding: 30px;
+
 }
 h1{
-    background-color:black;
-    width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+  background-color:black;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  border-left: 3px double white;
+  border-right: 3px double white;
+  text-align: center;
 }
 h2{
   font-size: 1.25em;
@@ -29,7 +40,7 @@ h3{
     background-color: #8f0000;
     border: 3px solid white;
     padding: 12px;
-    width: 500px;
+    width: 25%;
     border-radius: 20px;
     float:right;
     margin: 30px 30px 0 15px  
@@ -46,14 +57,34 @@ li{
 }
 
 .pics{
-    width: 500px;
+    width: 25%;
     border: 3px solid black;
 }
+
+p{
+  line-height: 2.25em;
+  border: solid 1px white;
+  padding: 30px;
+}
+
 
 /* unvisited links */
 a:link{
   font-weight: bold;
-  color: #8f0000;
+  color: #e6a1a1;
   text-shadow: .5px .5px 0px  black;
+  text-decoration: none;
 }
+
+a:visited{
+  color: #16e249;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  background-color: #ffd500;
+  text-decoration: none;
+}
+
 
